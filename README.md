@@ -3,7 +3,7 @@
 
 We recommend checking out the following before getting started on PA2:
 
-* The Week 2 videos and slides on Text Classification.
+* The Week 2 videos and slides on Text Classification and Language Modeling.
 * The Group Work 2 and slides on Naive Bayes and Sentiment Analysis
 * Chapter 4 of Jurafsky and Martin (3rd ed.), particularly sections 4.1-4.5,
   4.7, 4.8
