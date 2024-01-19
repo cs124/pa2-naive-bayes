@@ -162,6 +162,10 @@ solution for you. It should generate a zip file `submission.zip`.
 2. Upload the zip file as your solution to the PA2 Naive Bayes assignment in 
    Gradescope (http://www.gradescope.com).
 
+3. If this doesn't work or the zip files seems to have issues, you can try
+   submitting just the pa2.ipynb notebook and see if the autograder is 
+   now able to run.  
+
 ## Ubuntu for Windows
 
 1. You can run the cell at the bottom of the Jupyter notebook to zip up your
