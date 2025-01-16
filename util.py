@@ -46,21 +46,15 @@ class Classifier:
     If it is False, no filtering is required.
     You can use util.remove_stop_words().
 
-    If use_bigrams flag is true, your methods must use bigram features instead
-    of the usual bag-of-words (unigrams).
     HINT: Remember to add start and end tokens in the bigram implementation.
     HINT: When doing add-1 smoothing with bigrams, V = # unique bigrams in data.
-
-    NOTE: Only one of stop_words and use_bigrams will be used at once.
     """
 
     def __init__(self,
-                 filter_stop_words: bool = False,
-                 use_bigrams: bool = False):
+                 filter_stop_words: bool = False):
         self.filter_stop_words = filter_stop_words
         self.stop_words = set(read_file('data/english.stop')) \
             if self.filter_stop_words else None
-        self.use_bigrams = use_bigrams
 
     def train(self, examples: List[Example]) -> None:
         raise NotImplementedError("You need to override this!")
